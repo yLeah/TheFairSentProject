@@ -110,6 +110,58 @@ header .subtitle {
     margin-bottom: 20px;
 }
 
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.article-text {
+    width: 60%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.article-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.article-text p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.article-image {
+    width: 35%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.article.reverse {
+    flex-direction: row-reverse;
+}
+
+.article.reverse .article-image {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.article.reverse .article-text {
+    padding-left: 20px;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -136,5 +188,26 @@ footer {
     .key-container {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-text {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .article-image {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .article-image img {
+        width: 100%;
+        height: auto;
     }
 }
