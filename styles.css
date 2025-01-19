@@ -82,15 +82,23 @@ header .subtitle {
 }
 
 .key-dot.red {
-    background-color: red;
+    background-color: palevioletred;
 }
 
 .key-dot.blue {
-    background-color: blue;
+    background-color: powderblue;
 }
 
 .key-dot.green {
-    background-color: green;
+    background-color: palegreen;
+}
+
+.key-dot.yellow {
+    background-color: goldenrod;
+}
+
+.key-dot.orange {
+    background-color: peachpuff;
 }
 
 .content-section {
