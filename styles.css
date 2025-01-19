@@ -81,24 +81,24 @@ header .subtitle {
     margin-right: 10px;
 }
 
-.key-dot.red {
-    background-color: palevioletred;
+#kdr {
+    accent-color: red;
 }
 
-.key-dot.blue {
-    background-color: powderblue;
+#kdb {
+    accent-color: blue;
 }
 
-.key-dot.green {
-    background-color: palegreen;
+#kdg {
+    accent-color: green;
 }
 
-.key-dot.yellow {
-    background-color: goldenrod;
+#kdy {
+    accent-color: gold;
 }
 
-.key-dot.orange {
-    background-color: peachpuff;
+#kdo {
+    accent-color: orange;
 }
 
 .content-section {
